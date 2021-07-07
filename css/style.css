@@ -1,0 +1,74 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    height: 600px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.topbar{
+    height: 80px;
+    line-height: 100px;
+}
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+.jumbo{
+    vertical-align: middle;
+}
+li{
+    display: inline-block;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.log-in{
+    padding-left: 100px;
+}
+span{
+    padding: 10px;
+    font-size: 15px;
+}
+.description{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+}
+.title{
+    font-size: 70px;
+}
+.explanation{
+    font-size: 25px;
+    margin-top: 40px;
+}
+.buttons{
+    margin-top: 30px;
+}
+.button{
+    border-radius: 10px;
+}
+.second{
+    margin-right: 30px;
+}
+.third{
+    margin-left: 50px;
+    background-color: black;
+}
+.span{
+    font-size: 20px;
+    margin: 10px;
+}
+.two{
+    color: white;
+}
