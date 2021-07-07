@@ -16,7 +16,9 @@
     height: 80px;
     line-height: 100px;
 }
-#top-nav .logo, .menu, .log-in{
+#top-nav .logo, 
+#top-nav .menu,
+#top-nav .log-in{
     list-style-type: none;
     display: inline-block;
 }
@@ -116,7 +118,7 @@ section{
     font-size: 20px;
 }
 #bottom-nav{
-    height: 700px;
+    height: 420px;
     background-color: rgb(46, 44, 44);
     margin-top: 50px;
 }
@@ -130,39 +132,45 @@ select{
     padding-top: 50px;
 }
 .language{
-    margin-top: 20px;
+    margin-top: 10px;
+    float: left;
 }
-#bottom-nav .social-loga{
+#social-nav .social-loga{
     list-style-type: none;
     display: inline-block;
     margin-top: 105px;
 }
-#bottom-nav li{
+#social-nav li{
     display: inline-block;
 }
-#bottom-nav .logos{
+#social-nav .logos{
     width: 30px;
 }
-.table{
+#table{
     float: right;
-    margin-left: 200px;
+    margin-right: 200px;
 }
-tr, th, td{
-    padding: 5px;
+#table ul{
+    padding: 10px;
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
 }
-th{
-    color: blueviolet;
-}
-td{
+#table li{
+    margin-left: 10px;
+    font-size: 20px;
     color: white;
 }
+#table .divergent{
+    color: blueviolet;
+}
 .bottom-bar{
-    padding-top: 300px;
+    margin-top: 20px;
 }
 .bottom-logo{
     vertical-align: middle;
     margin-top: 10px;
 }
 .last-button{
-    margin-left: 1000px;
+    margin-left: 1010px;
 }
