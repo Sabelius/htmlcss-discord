@@ -3,7 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
 }
-header{
+#top-nav{
     height: 600px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -16,20 +16,20 @@ header{
     height: 80px;
     line-height: 100px;
 }
-.logo, .menu, .log-in{
+#top-nav .logo, .menu, .log-in{
     list-style-type: none;
     display: inline-block;
 }
 .jumbo{
     vertical-align: middle;
 }
-li{
+#top-nav li{
     display: inline-block;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding-left: 20px;
     margin-left: 50px;
 }
-a{
+#top-nav a{
     color: white;
     text-decoration: none;
 }
@@ -115,13 +115,16 @@ section{
     color: white;
     font-size: 20px;
 }
-footer{
-    height: 600px;
+#bottom-nav{
+    height: 700px;
     background-color: rgb(46, 44, 44);
     margin-top: 50px;
 }
 .footer-title{
     color: blueviolet;
+}
+select{
+    margin-top: 20px;
 }
 .footer-contain{
     padding-top: 50px;
@@ -129,4 +132,37 @@ footer{
 .language{
     margin-top: 20px;
 }
-
+#bottom-nav .social-loga{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 105px;
+}
+#bottom-nav li{
+    display: inline-block;
+}
+#bottom-nav .logos{
+    width: 30px;
+}
+.table{
+    float: right;
+    margin-left: 200px;
+}
+tr, th, td{
+    padding: 5px;
+}
+th{
+    color: blueviolet;
+}
+td{
+    color: white;
+}
+.bottom-bar{
+    padding-top: 300px;
+}
+.bottom-logo{
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.last-button{
+    margin-left: 1000px;
+}
