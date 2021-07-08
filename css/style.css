@@ -59,12 +59,10 @@ span{
 }
 .button{
     border-radius: 10px;
-}
-.second{
-    margin-right: 30px;
+    border: none;
+    padding: 10px;
 }
 .third{
-    margin-left: 50px;
     background-color: black;
 }
 .span{
@@ -88,7 +86,7 @@ section{
     margin-top: 35px;
 }
 .title1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .explanation1{
     margin-top: 20px;
@@ -107,10 +105,12 @@ section{
 }
 .text-bottom{
     text-align: center;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-size: contain;
 }
-.fourth-button{
+.fourth{
     background-color: rgb(148, 91, 201);
-    border-radius: 10px;
     margin-top: 20px;
 }
 .button-bottom{
@@ -118,7 +118,7 @@ section{
     font-size: 20px;
 }
 #bottom-nav{
-    height: 420px;
+    height: 500px;
     background-color: rgb(46, 44, 44);
     margin-top: 50px;
 }
@@ -148,17 +148,21 @@ select{
 }
 #table{
     float: right;
-    margin-right: 200px;
+    margin-right: 150px;
 }
 #table ul{
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
     list-style-type: none;
     vertical-align: top;
 }
 #table li{
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
     font-size: 20px;
+}
+#table a{
+    text-decoration: none;
     color: white;
 }
 #table .divergent{
